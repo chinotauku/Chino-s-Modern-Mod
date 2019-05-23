@@ -1,0 +1,220 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "com\chinocraft\chmd\Main.java" md5: 6da18be80971fa5723e8580309dddf75
+@|com\chinocraft\chmd\Main.java|8|27|com.chinocraft.chmd|package|com.chinocraft.chmd|(file)
+Class Start: com.chinocraft.chmd.Main
+   @|com\chinocraft\chmd\Main.java|303|306|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\chinocraft\chmd\Main.java|307|312|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\chinocraft\chmd\Main.java|315|324|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\Main.java|325|331|MOD_ID|field|com.chinocraft.chmd.util.Reference|MOD_ID
+   @|com\chinocraft\chmd\Main.java|333|337|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\chinocraft\chmd\Main.java|340|349|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\Main.java|350|354|NAME|field|com.chinocraft.chmd.util.Reference|NAME
+   @|com\chinocraft\chmd\Main.java|356|363|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\chinocraft\chmd\Main.java|366|375|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\Main.java|376|383|VERSION|field|com.chinocraft.chmd.util.Reference|VERSION
+   @|com\chinocraft\chmd\Main.java|398|402|Main|class|com.chinocraft.chmd.Main
+   @|com\chinocraft\chmd\Main.java|433|437|Main|class|com.chinocraft.chmd.Main
+   @|com\chinocraft\chmd\Main.java|409|417|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\chinocraft\chmd\Main.java|433|437|Main|class|com.chinocraft.chmd.Main
+   @|com\chinocraft\chmd\Main.java|438|446|instance|field|com.chinocraft.chmd.Main|instance|
+   @|com\chinocraft\chmd\Main.java|552|563|CommonProxy|class|com.chinocraft.chmd.proxy.CommonProxy
+   @|com\chinocraft\chmd\Main.java|452|462|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\chinocraft\chmd\Main.java|463|473|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\chinocraft\chmd\Main.java|476|485|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\Main.java|486|498|CLIENT_PROXY|field|com.chinocraft.chmd.util.Reference|CLIENT_PROXY
+   @|com\chinocraft\chmd\Main.java|500|510|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\chinocraft\chmd\Main.java|513|522|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\Main.java|523|535|COMMON_PROXY|field|com.chinocraft.chmd.util.Reference|COMMON_PROXY
+   @|com\chinocraft\chmd\Main.java|552|563|CommonProxy|class|com.chinocraft.chmd.proxy.CommonProxy
+   @|com\chinocraft\chmd\Main.java|564|569|proxy|field|com.chinocraft.chmd.Main|proxy|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|642|647|event|param|com.chinocraft.chmd.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\chinocraft\chmd\Main.java|575|587|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\chinocraft\chmd\Main.java|608|615|PreInit|method|com.chinocraft.chmd.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|616|641|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|724|729|event|param|com.chinocraft.chmd.Main|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\chinocraft\chmd\Main.java|663|675|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\chinocraft\chmd\Main.java|696|700|Init|method|com.chinocraft.chmd.Main|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|701|723|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|814|819|event|param|com.chinocraft.chmd.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\chinocraft\chmd\Main.java|745|757|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\chinocraft\chmd\Main.java|778|786|PostInit|method|com.chinocraft.chmd.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\chinocraft\chmd\Main.java|787|813|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: ServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com\chinocraft\chmd\Main.java|906|911|event|param|com.chinocraft.chmd.Main|ServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com\chinocraft\chmd\Main.java|835|847|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\chinocraft\chmd\Main.java|868|882|ServerStarting|method|com.chinocraft.chmd.Main|ServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com\chinocraft\chmd\Main.java|883|905|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+   Method End: ServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+   Method Start: ServerStopping(Lnet/minecraftforge/fml/common/event/FMLServerStoppingEvent;)V
+      @|com\chinocraft\chmd\Main.java|998|1003|event|param|com.chinocraft.chmd.Main|ServerStopping|(Lnet/minecraftforge/fml/common/event/FMLServerStoppingEvent;)V|event|0
+      @|com\chinocraft\chmd\Main.java|927|939|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\chinocraft\chmd\Main.java|960|974|ServerStopping|method|com.chinocraft.chmd.Main|ServerStopping|(Lnet/minecraftforge/fml/common/event/FMLServerStoppingEvent;)V
+      @|com\chinocraft\chmd\Main.java|975|997|FMLServerStoppingEvent|class|net.minecraftforge.fml.common.event.FMLServerStoppingEvent
+   Method End: ServerStopping(Lnet/minecraftforge/fml/common/event/FMLServerStoppingEvent;)V
+Class End  : com.chinocraft.chmd.Main
+endProcessing "com\chinocraft\chmd\Main.java"
+
+startProcessing "com\chinocraft\chmd\init\ModItems.java" md5: 1e0da3537a994fb805565de1f0535e3c
+@|com\chinocraft\chmd\init\ModItems.java|8|32|com.chinocraft.chmd.init|package|com.chinocraft.chmd.init|(file)
+Class Start: com.chinocraft.chmd.init.ModItems
+   @|com\chinocraft\chmd\init\ModItems.java|177|185|ModItems|class|com.chinocraft.chmd.init.ModItems
+   @|com\chinocraft\chmd\init\ModItems.java|216|220|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\init\ModItems.java|211|215|List|class|java.util.List
+   @|com\chinocraft\chmd\init\ModItems.java|211|215|List|class|java.util.List
+   @|com\chinocraft\chmd\init\ModItems.java|216|220|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\init\ModItems.java|222|227|ITEMS|field|com.chinocraft.chmd.init.ModItems|ITEMS|
+   @|com\chinocraft\chmd\init\ModItems.java|234|243|ArrayList|class|java.util.ArrayList
+   @|com\chinocraft\chmd\init\ModItems.java|244|248|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\init\ModItems.java|276|280|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\init\ModItems.java|276|280|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\init\ModItems.java|281|292|WIRE_STRING|field|com.chinocraft.chmd.init.ModItems|WIRE_STRING|
+   @|com\chinocraft\chmd\init\ModItems.java|299|307|ItemBase|class|com.chinocraft.chmd.items.ItemBase
+Class End  : com.chinocraft.chmd.init.ModItems
+endProcessing "com\chinocraft\chmd\init\ModItems.java"
+
+startProcessing "com\chinocraft\chmd\items\ItemBase.java" md5: 2c1f5f0ed7e7a8cb35124085fc678dd0
+@|com\chinocraft\chmd\items\ItemBase.java|8|33|com.chinocraft.chmd.items|package|com.chinocraft.chmd.items|(file)
+Class Start: com.chinocraft.chmd.items.ItemBase
+   @|com\chinocraft\chmd\items\ItemBase.java|248|256|ItemBase|class|com.chinocraft.chmd.items.ItemBase
+   @|com\chinocraft\chmd\items\ItemBase.java|265|269|Item|class|net.minecraft.item.Item
+   @|com\chinocraft\chmd\items\ItemBase.java|281|290|IHasModel|class|com.chinocraft.chmd.util.IHasModel
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|com\chinocraft\chmd\items\ItemBase.java|317|321|name|param|com.chinocraft.chmd.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\chinocraft\chmd\items\ItemBase.java|301|309|ItemBase|method|com.chinocraft.chmd.items.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|com\chinocraft\chmd\items\ItemBase.java|310|316|String|class|java.lang.String
+      @|com\chinocraft\chmd\items\ItemBase.java|328|346|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\chinocraft\chmd\items\ItemBase.java|347|351|name|param|com.chinocraft.chmd.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\chinocraft\chmd\items\ItemBase.java|356|371|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\chinocraft\chmd\items\ItemBase.java|372|376|name|param|com.chinocraft.chmd.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\chinocraft\chmd\items\ItemBase.java|381|395|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\chinocraft\chmd\items\ItemBase.java|396|408|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\chinocraft\chmd\items\ItemBase.java|409|418|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      @|com\chinocraft\chmd\items\ItemBase.java|426|434|ModItems|class|com.chinocraft.chmd.init.ModItems
+      @|com\chinocraft\chmd\items\ItemBase.java|435|440|ITEMS|field|com.chinocraft.chmd.init.ModItems|ITEMS
+      @|com\chinocraft\chmd\items\ItemBase.java|441|444|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerModels()V
+      @|com\chinocraft\chmd\items\ItemBase.java|459|467|Override|class|java.lang.Override
+      @|com\chinocraft\chmd\items\ItemBase.java|481|495|registerModels|method|com.chinocraft.chmd.util.IHasModel|registerModels|()V
+      @|com\chinocraft\chmd\items\ItemBase.java|539|543|Main|class|com.chinocraft.chmd.Main
+      @|com\chinocraft\chmd\items\ItemBase.java|544|549|proxy|field|com.chinocraft.chmd.Main|proxy
+      @|com\chinocraft\chmd\items\ItemBase.java|550|570|registerItemRenderer|method|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method End: registerModels()V
+Class End  : com.chinocraft.chmd.items.ItemBase
+endProcessing "com\chinocraft\chmd\items\ItemBase.java"
+
+startProcessing "com\chinocraft\chmd\proxy\ClientProxy.java" md5: ce100ae190f031bd786c751565cf5b64
+@|com\chinocraft\chmd\proxy\ClientProxy.java|8|33|com.chinocraft.chmd.proxy|package|com.chinocraft.chmd.proxy|(file)
+Class Start: com.chinocraft.chmd.proxy.ClientProxy
+   @|com\chinocraft\chmd\proxy\ClientProxy.java|206|217|ClientProxy|class|com.chinocraft.chmd.proxy.ClientProxy
+   @|com\chinocraft\chmd\proxy\ClientProxy.java|226|237|CommonProxy|class|com.chinocraft.chmd.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|278|282|item|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|288|292|meta|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|301|303|id|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|252|272|registerItemRenderer|method|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|273|277|Item|class|net.minecraft.item.Item
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|294|300|String|class|java.lang.String
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|310|321|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|322|352|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|353|357|item|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|359|363|meta|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|369|390|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|391|395|item|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|396|411|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\chinocraft\chmd\proxy\ClientProxy.java|415|417|id|param|com.chinocraft.chmd.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.chinocraft.chmd.proxy.ClientProxy
+endProcessing "com\chinocraft\chmd\proxy\ClientProxy.java"
+
+startProcessing "com\chinocraft\chmd\proxy\CommonProxy.java" md5: 26599f0a85c9ed8e9c4f82d6a8a85326
+@|com\chinocraft\chmd\proxy\CommonProxy.java|8|33|com.chinocraft.chmd.proxy|package|com.chinocraft.chmd.proxy|(file)
+Class Start: com.chinocraft.chmd.proxy.CommonProxy
+   @|com\chinocraft\chmd\proxy\CommonProxy.java|82|93|CommonProxy|class|com.chinocraft.chmd.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|135|139|item|param|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|145|149|meta|param|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|158|160|id|param|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|109|129|registerItemRenderer|method|com.chinocraft.chmd.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|130|134|Item|class|net.minecraft.item.Item
+      @|com\chinocraft\chmd\proxy\CommonProxy.java|151|157|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.chinocraft.chmd.proxy.CommonProxy
+endProcessing "com\chinocraft\chmd\proxy\CommonProxy.java"
+
+startProcessing "com\chinocraft\chmd\util\IHasModel.java" md5: e703245d39cdbf03802c7feb7c62411d
+@|com\chinocraft\chmd\util\IHasModel.java|8|32|com.chinocraft.chmd.util|package|com.chinocraft.chmd.util|(file)
+Class Start: com.chinocraft.chmd.util.IHasModel
+   @|com\chinocraft\chmd\util\IHasModel.java|52|61|IHasModel|class|com.chinocraft.chmd.util.IHasModel
+   Method Start: registerModels()V
+      @|com\chinocraft\chmd\util\IHasModel.java|77|91|registerModels|method|com.chinocraft.chmd.util.IHasModel|registerModels|()V
+   Method End: registerModels()V
+Class End  : com.chinocraft.chmd.util.IHasModel
+endProcessing "com\chinocraft\chmd\util\IHasModel.java"
+
+startProcessing "com\chinocraft\chmd\util\Reference.java" md5: 86dd51abc30f41f8a1eea0de5747fd38
+@|com\chinocraft\chmd\util\Reference.java|8|32|com.chinocraft.chmd.util|package|com.chinocraft.chmd.util|(file)
+Class Start: com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\util\Reference.java|48|57|Reference|class|com.chinocraft.chmd.util.Reference
+   @|com\chinocraft\chmd\util\Reference.java|81|87|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|81|87|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|88|94|MOD_ID|field|com.chinocraft.chmd.util.Reference|MOD_ID|
+   @|com\chinocraft\chmd\util\Reference.java|126|132|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|126|132|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|133|137|NAME|field|com.chinocraft.chmd.util.Reference|NAME|
+   @|com\chinocraft\chmd\util\Reference.java|182|188|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|182|188|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|189|196|VERSION|field|com.chinocraft.chmd.util.Reference|VERSION|
+   @|com\chinocraft\chmd\util\Reference.java|227|233|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|227|233|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|234|251|ACCEPTED_VERSIONS|field|com.chinocraft.chmd.util.Reference|ACCEPTED_VERSIONS|
+   @|com\chinocraft\chmd\util\Reference.java|286|292|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|286|292|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|293|305|CLIENT_PROXY|field|com.chinocraft.chmd.util.Reference|CLIENT_PROXY|
+   @|com\chinocraft\chmd\util\Reference.java|370|376|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|370|376|String|class|java.lang.String
+   @|com\chinocraft\chmd\util\Reference.java|377|389|COMMON_PROXY|field|com.chinocraft.chmd.util.Reference|COMMON_PROXY|
+Class End  : com.chinocraft.chmd.util.Reference
+endProcessing "com\chinocraft\chmd\util\Reference.java"
+
+startProcessing "com\chinocraft\chmd\util\handlers\RegistryHandler.java" md5: a99149e780ca7bc624ec9b75a7754640
+@|com\chinocraft\chmd\util\handlers\RegistryHandler.java|8|41|com.chinocraft.chmd.util.handlers|package|com.chinocraft.chmd.util.handlers|(file)
+Class Start: com.chinocraft.chmd.util.handlers.RegistryHandler
+   @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|397|415|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|429|444|RegistryHandler|class|com.chinocraft.chmd.util.handlers.RegistryHandler
+   Method Start: onItemRegiter(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|529|534|event|param|com.chinocraft.chmd.util.handlers.RegistryHandler|onItemRegiter|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|451|465|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|486|499|onItemRegiter|method|com.chinocraft.chmd.util.handlers.RegistryHandler|onItemRegiter|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|500|522|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|523|527|Item|class|net.minecraft.item.Item
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|542|547|event|param|com.chinocraft.chmd.util.handlers.RegistryHandler|onItemRegiter|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|548|559|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|562|573|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|574|582|ModItems|class|com.chinocraft.chmd.init.ModItems
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|583|588|ITEMS|field|com.chinocraft.chmd.init.ModItems|ITEMS
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|589|596|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|601|605|Item|class|net.minecraft.item.Item
+   Method End: onItemRegiter(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegiter(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|688|693|event|param|com.chinocraft.chmd.util.handlers.RegistryHandler|onModelRegiter|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|619|633|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|654|668|onModelRegiter|method|com.chinocraft.chmd.util.handlers.RegistryHandler|onModelRegiter|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|669|687|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|706|710|Item|class|net.minecraft.item.Item
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|718|726|ModItems|class|com.chinocraft.chmd.init.ModItems
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|727|732|ITEMS|field|com.chinocraft.chmd.init.ModItems|ITEMS
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|760|769|IHasModel|class|com.chinocraft.chmd.util.IHasModel
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|782|791|IHasModel|class|com.chinocraft.chmd.util.IHasModel
+      @|com\chinocraft\chmd\util\handlers\RegistryHandler.java|798|812|registerModels|method|com.chinocraft.chmd.util.IHasModel|registerModels|()V
+   Method End: onModelRegiter(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : com.chinocraft.chmd.util.handlers.RegistryHandler
+endProcessing "com\chinocraft\chmd\util\handlers\RegistryHandler.java"
+

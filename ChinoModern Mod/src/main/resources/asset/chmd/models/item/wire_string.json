@@ -1,0 +1,6 @@
+{
+    "parent": "chmd:item/wire_string",
+    "textures": {
+        "layer0": "chmd:items/wire_string"
+    }
+}

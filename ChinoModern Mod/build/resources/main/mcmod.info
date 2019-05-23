@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chmd",
+  "name": "Chinos Modern Mod",
+  "description": "Extend the mincraft into modern generic staffs.",
+  "version": "0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["chinotauku"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
